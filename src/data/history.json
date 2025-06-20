@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Coding & Technical Experience",
+    "organisation": "Leetcode & Codeforces",
+    "startDate": "2024",
+    "endDate": "Present",
+    "experiences": [
+      "Solved 200+ DSA problems on LeetCode",
+      "Achieved a rating of 1000+ on Codeforces"
+    ],
+    "icon": "FaCode"
+  },
+  {
+    "role": "Volunteering & Leadership Experience",
+    "organisation": "Global Alumni Meet 2024",
+    "startDate": "Jan 2024",
+    "endDate": "Jan 2024",
+    "experiences": [
+      "Contributed in logistics and guest coordination",
+      "Helped organize large-scale alumni interaction sessions smoothly"
+    ],
+    "icon": "FaUsers"
+  },
+  {
+    "role": "Event Contributor | Avishkar TechFest",
+    "organisation": "NIT Allahabad",
+    "startDate": "Nov 2024",
+    "endDate": "Dec 2024",
+    "experiences": [
+      "Worked on component library",
+      "Helped create UI components"
+    ],
+    "icon": "FaRocket"
+  }
+]
