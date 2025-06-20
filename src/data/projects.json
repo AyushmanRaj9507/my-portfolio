@@ -2,7 +2,14 @@
   {
     "title": "Yaatra",
     "imageSrc": "projects/project.png",
-    "description": "Yaatra - Travel Listing Platform. A dynamic travel web app where users can: 📍 Add and explore travel listings 📝 Write and read reviews 📸 Upload images via Cloudinary 🔐 Register/Login with Passport.js 🖥️ Beautiful UI with Tailwind & EJS.",
+    "description": [
+      "Yaatra is a dynamic travel web app.",
+      "Users can add and explore travel listings.",
+      "Supports writing and reading reviews.",
+      "Images are uploaded via Cloudinary.",
+      "User authentication using Passport.js.",
+      "Built with EJS, Express, Node.js and styled using Tailwind CSS."
+    ],
     "skills": ["EJS", "Express", "Node"],
     "demo": "https://project-yaatra-1.onrender.com",
     "source": "https://github.com/AyushmanRaj9507/project-yaatra"
@@ -10,7 +17,13 @@
   {
     "title": "CodeX",
     "imageSrc": "projects/codex.png",
-    "description": "CodeX is a full-stack EdTech platform built using React, Node.js, Express, and Redux. It allows educators to share learning materials, manage content, and interact with students through a responsive and user-friendly interface. Deployed using Vercel and Render.",
+    "description": [
+      "Codex is a full-stack EdTech platform.",
+      "Built using React, Redux, Node.js, and Express.",
+      "Educators can share content and manage learning materials.",
+      "Responsive UI for students and teachers.",
+      "Deployed using Vercel and Render."
+    ],
     "skills": ["React", "Express", "Node", "Redux"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
@@ -18,7 +31,13 @@
   {
     "title": "My Portfolio",
     "imageSrc": "projects/portfolio.png",
-    "description": "This is a personal portfolio website showcasing my skills, projects, and contact information. Built using React and CSS with responsive design and deployed online.",
+    "description": [
+      "Personal portfolio showcasing my skills and projects.",
+      "Built using React and styled with CSS.",
+      "Includes sections like About, Skills, Projects, and Contact.",
+      "Fully responsive and mobile-friendly design.",
+      "Deployed live via GitHub Pages/Vercel."
+    ],
     "skills": ["React", "CSS", "Node"],
     "demo": "https://www.example.com",
     "source": "https://github.com/AyushmanRaj9507/my-portfolio"
