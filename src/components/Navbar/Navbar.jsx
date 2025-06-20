@@ -22,7 +22,7 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
-        <ul
+        {/* <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
@@ -38,7 +38,17 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+        </ul> */}
+        <ul
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
+          onClick={() => setMenuOpen(false)}
+        >
+          <li><a className={styles.menuLink} href="#about">About</a></li>
+          <li><a className={styles.menuLink} href="#experience">Experience</a></li>
+          <li><a className={styles.menuLink} href="#projects">Projects</a></li>
+          <li><a className={styles.menuLink} href="#contact">Contact</a></li>
         </ul>
+
       </div>
     </nav>
   );

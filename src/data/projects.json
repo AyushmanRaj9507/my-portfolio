@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
+    "title": "Yaatra",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Yaatra - Travel Listing Platform. A dynamic travel web app where users can: 📍 Add and explore travel listings 📝 Write and read reviews 📸 Upload images via Cloudinary 🔐 Register/Login with Passport.js 🖥️ Beautiful UI with Tailwind & EJS.",
+    "skills": ["EJS", "Express", "Node"],
+    "demo": "https://project-yaatra-1.onrender.com",
+    "source": "https://github.com/AyushmanRaj9507/project-yaatra"
+  },
+  {
+    "title": "CodeX",
+    "imageSrc": "projects/codex.png",
+    "description": "CodeX is a full-stack EdTech platform built using React, Node.js, Express, and Redux. It allows educators to share learning materials, manage content, and interact with students through a responsive and user-friendly interface. Deployed using Vercel and Render.",
+    "skills": ["React", "Express", "Node", "Redux"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "My Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "This is a personal portfolio website showcasing my skills, projects, and contact information. Built using React and CSS with responsive design and deployed online.",
+    "skills": ["React", "CSS", "Node"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/AyushmanRaj9507/my-portfolio"
   }
 ]
