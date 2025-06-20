@@ -1,32 +1,62 @@
 import React from "react";
-
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils";
+import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram, FaFacebook } from "react-icons/fa";
 
 export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <p>Let’s connect! Whether it’s about tech, projects, or just a friendly chat — I'm just one click away.</p>
       </div>
-      <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
-        </li>
-        <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
-        </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
-        </li>
-      </ul>
+
+      <div className={styles.icons}>
+        <a
+          href="mailto:araj53062@gmail.com"
+          className={`${styles.icon} ${styles.email}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Email"
+        >
+          <FaEnvelope />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ayushman-raj-166a21368/"
+          className={`${styles.icon} ${styles.linkedin}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="LinkedIn"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/AyushmanRaj9507"
+          className={`${styles.icon} ${styles.github}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="GitHub"
+        >
+          <FaGithub />
+        </a>
+        <a
+          href="https://www.instagram.com/ayushmangupta_121/"
+          className={`${styles.icon} ${styles.instagram}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram"
+        >
+          <FaInstagram />
+        </a>
+        <a
+          href="https://www.facebook.com/yourusername"
+          className={`${styles.icon} ${styles.facebook}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Facebook"
+        >
+          <FaFacebook />
+        </a>
+      </div>
     </footer>
   );
 };
