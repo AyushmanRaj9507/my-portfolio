@@ -148,3 +148,16 @@
   background-color: #0ef019;
   transform: translateY(-1px);
 }
+
+.footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.footer .text {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 5px;
+}

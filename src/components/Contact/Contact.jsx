@@ -42,6 +42,13 @@ export const Contact = () => {
         </form>
       </section>
 
+      <div className={styles.footer}>
+        <p className={styles.text}>
+          © {new Date().getFullYear()} Ayushman Raj. All rights reserved.
+        </p>
+      </div>
+
+
       <div className={styles.icons}>
         <a
           href="mailto:araj53062@gmail.com"
