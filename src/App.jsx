@@ -5,6 +5,8 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import { ScrollToTop } from "./components/ScrollToTop/ScrollToTop";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <ScrollToTop />
     </div>
   );
 }
