@@ -110,3 +110,19 @@
     z-index: 1;
   }
 }
+
+.toggleBtn {
+  margin-left: 1rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #00ffaa;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.toggleBtn:hover {
+  background-color: #00ccaa;
+}
