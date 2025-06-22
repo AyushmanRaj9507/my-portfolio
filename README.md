@@ -1,12 +1,59 @@
-<<<<<<< HEAD
-# React + Vite
+# 💼 Personal Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! 🚀  
+This website showcases my skills, experience, and projects in an interactive and responsive design. It is built using **React.js** with modular CSS, and includes features like a dark/light mode toggle, smooth scrolling, and responsive navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# my-portfolio
->>>>>>> f0ebebd0302348c643473e0d68c0263b2fa934d2
+## 🌟 Features
+
+- ⚡ Responsive Design (Mobile + Desktop)
+- 🌙 Light / Dark Mode Toggle
+- 🧑‍💻 About Me, Skills, and Experience Sections
+- 💼 Projects with Live Link + GitHub Link
+- 📬 Contact Section (scrollable)
+- 🧭 Smooth Scrolling Navigation
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js
+- 🎨 CSS Modules
+- 📦 Vite / Webpack (based on your setup)
+- 📁 Modular File Structure
+
+---
+
+## 📸 Preview
+
+![Portfolio Preview](./preview.png)  
+*(Add a screenshot of your homepage if available)*
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
+
+src/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── About/
+│   ├── Experience/
+│   ├── Projects/
+│   └── Contact/
+│
+├── utils/
+├── assets/
+├── App.jsx
+├── index.css
+└── main.jsx
