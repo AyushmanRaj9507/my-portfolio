@@ -4,9 +4,10 @@ import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);  // STEP 1
+  const [darkMode, setDarkMode] = useState(true); // ✅ Dark mode default ON
+  const [activeSection, setActiveSection] = useState("");
 
-  // ✅ STEP 3: useEffect to apply/remove dark-mode class
+  // ✅ Apply/remove dark-mode class to body
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark-mode");
@@ -15,11 +16,34 @@ export const Navbar = () => {
     }
   }, [darkMode]);
 
+  // ✅ Observe scroll position & update active section
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["about", "experience", "projects", "contact"];
+      let foundSection = "";
+
+      for (let section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= window.innerHeight / 2 && rect.bottom >= 100) {
+            foundSection = section;
+            break;
+          }
+        }
+      }
+
+      setActiveSection(foundSection);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial call
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
-        Portfolio
-      </a>
+      <a className={styles.title} href="/">Portfolio</a>
 
       {/* ✅ Toggle Button */}
       <button
@@ -40,14 +64,51 @@ export const Navbar = () => {
           alt={menuOpen ? "Close menu" : "Open menu"}
           onClick={() => setMenuOpen(!menuOpen)}
         />
+
         <ul
           className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
           onClick={() => setMenuOpen(false)}
         >
-          <li><a className={styles.menuLink} href="#about">About</a></li>
-          <li><a className={styles.menuLink} href="#experience">Experience</a></li>
-          <li><a className={styles.menuLink} href="#projects">Projects</a></li>
-          <li><a className={styles.menuLink} href="#contact">Contact</a></li>
+          <li>
+            <a
+              className={`${styles.menuLink} ${
+                activeSection === "about" ? styles.active : ""
+              }`}
+              href="#about"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              className={`${styles.menuLink} ${
+                activeSection === "experience" ? styles.active : ""
+              }`}
+              href="#experience"
+            >
+              Experience
+            </a>
+          </li>
+          <li>
+            <a
+              className={`${styles.menuLink} ${
+                activeSection === "projects" ? styles.active : ""
+              }`}
+              href="#projects"
+            >
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
+              className={`${styles.menuLink} ${
+                activeSection === "contact" ? styles.active : ""
+              }`}
+              href="#contact"
+            >
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
