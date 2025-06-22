@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  background-color: #0b2447;
+  background-color: #bed7bd;
   padding: 80px 10% 120px; /* bottom padding increased to avoid overlap */
   text-align: center;
   color: #ffffff;
@@ -10,16 +10,16 @@
 }
 
 .text h2 {
-  font-size: 36px;
-  margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 8px;
   font-weight: bold;
-  color: var(--color-primary);
+  color: rgb(19, 7, 7);
 }
 
 .text p {
   font-size: 18px;
   margin-bottom: 40px;
-  color: #dcdcdc;
+  color: #ece9e9;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -81,4 +81,70 @@
     font-size: 24px;
     padding: 14px;
   }
+}
+
+.container {
+  padding: 60px 10%;
+  background: #2c67dc;
+  color: #1f2937;
+  text-align: center;
+}
+
+.form {
+  background: rgba(42, 10, 67, 0.14);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #090d17;
+}
+
+.subheading {
+  font-size: 12px;
+  margin-bottom: 24px;
+  color: #131416;
+}
+
+.form input,
+.form textarea {
+  padding: 14px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f9fafb;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #346eeb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+
+.form button {
+  padding: 14px 24px;
+  background-color: #4ad192;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #0ef019;
+  transform: translateY(-1px);
 }
