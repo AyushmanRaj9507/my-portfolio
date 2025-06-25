@@ -18,15 +18,17 @@
     "title": "CodeX",
     "imageSrc": "projects/codex.png",
     "description": [
-      "Codex is a full-stack EdTech platform.",
+      "full-stack EdTech platform give interaction between students and instructors.",
       "Built using React, Redux, Node.js, and Express.",
       "Educators can share content and manage learning materials.",
       "Responsive UI for students and teachers.",
-      "Deployed using Vercel and Render."
+      "Integrated Razorpay for payment processing and Cloudinary for media upload and storage.",
+      "Deployed using Vercel and Render.",
+      "Implemented email-based OTP verification using Nodemailer and React OTP; real-time notifications via Hot Toast."
     ],
-    "skills": ["React", "Express", "Node", "Redux"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["React", "Express", "Node", "Redux", "Tailwind CSS"],
+    "demo": "https://the-code-x.vercel.app/",
+    "source": "https://github.com/AyushmanRaj9507/The-CodeX"
   },
   {
     "title": "My Portfolio",
