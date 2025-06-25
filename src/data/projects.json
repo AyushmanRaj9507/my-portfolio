@@ -3,12 +3,11 @@
     "title": "Yaatra",
     "imageSrc": "projects/project.png",
     "description": [
-      "Yaatra is a dynamic travel web app.",
+      "Yaatra is a travel platform with features like destination filters, interactive maps, and secure login/signup functionality.",
       "Users can add and explore travel listings.",
-      "Supports writing and reading reviews.",
-      "Images are uploaded via Cloudinary.",
-      "User authentication using Passport.js.",
-      "Built with EJS, Express, Node.js and styled using Tailwind CSS."
+      "Integrated Google Maps API for interactive travel routes, geolocation, and real-time destination data.",
+      "Developed a scalable backend using Node.js, Express.js, and MongoDB; implemented session management with JWT and bcrypt.",
+      "Added advanced filter functionality to enhance user navigation and improve overall UX"
     ],
     "skills": ["EJS", "Express", "Node"],
     "demo": "https://project-yaatra-1.onrender.com",
@@ -34,14 +33,14 @@
     "title": "My Portfolio",
     "imageSrc": "projects/portfolio.png",
     "description": [
-      "Personal portfolio showcasing my skills and projects.",
+      "Personal portfolio showcasing my web development skills and project work..",
       "Built using React and styled with CSS.",
       "Includes sections like About, Skills, Projects, and Contact.",
-      "Fully responsive and mobile-friendly design.",
+      "Fully responsive and mobile-friendly design also with interactive animations and clean, minimalist UI.",
       "Deployed live via GitHub Pages/Vercel."
     ],
     "skills": ["React", "CSS", "Node"],
-    "demo": "https://www.example.com",
+    "demo": "https://my-portfolio-96lj.vercel.app/",
     "source": "https://github.com/AyushmanRaj9507/my-portfolio"
   }
 ]
