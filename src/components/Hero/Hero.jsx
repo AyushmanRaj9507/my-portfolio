@@ -11,7 +11,7 @@ export const Hero = () => {
         <h6 className={styles.subtitle}>Full-Stack Web Developer @ MERN Stack</h6>
         <p className={styles.description}>
           🏫 National Institute of Technology (NIT) Allahabad <br />
-          ⚡ Electrical Engineering – 2nd Year
+          ⚡ Electrical Engineering – Final Year
         </p>
 
         <div className={styles.buttons}>

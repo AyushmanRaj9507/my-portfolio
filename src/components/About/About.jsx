@@ -57,7 +57,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Data Structures & Algorithms</h3>
               <p>
-                I’ve solved over 200+ problems on platforms like LeetCode and Codeforces. I enjoy writing optimized code and applying logical thinking to solve complex problems.
+                I’ve solved over 1500+ problems on platforms like LeetCode and Codeforces. I enjoy writing optimized code and applying logical thinking to solve complex problems.
               </p>
             </div>
           </li>
